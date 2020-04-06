@@ -5,9 +5,48 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:#1b1b1b;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  font-family:Arial;
+  color:#ffffff;
+  font-weight:700;
+}
+
+h1 .orange-bg {
+  background-color:#ff9900;
+  border-radius:5px;
+  color:#000000;
+  margin-left:4px;
+  padding:3px;
+}
+
+.btn-primary {
+  color:#f90;
+  font-weight:700;
+  background-color:#1b1b1b;
+  border-color:#1b1b1b;
+}
+
+.btn-primary:hover {
+  color:#1b1b1b;
+  background-color:#f90;
+  border-color:#f90;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  color:#f90;
+  font-weight:700;
+  background-color:#1b1b1b;
+  border-color:#1b1b1b;
+}
+
+.card-title {
+  color:#1b1b1b;
 }
